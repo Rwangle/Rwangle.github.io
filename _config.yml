@@ -1,0 +1,38 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Roger Wang
+tagline:             A Data Science Blog
+url:                 http://rwangle.github.io
+paginate:            2
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Roger Wang
+  url:               https://www.linkedin.com/in/roger-wang-1080/
+  email:             rogerwang770@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/Rwangle/Rwangle.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Page List
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/index.html'
